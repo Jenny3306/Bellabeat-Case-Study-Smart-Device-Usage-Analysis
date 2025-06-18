@@ -1,55 +1,56 @@
-# 📊 Google Data Analytics Capstone Project: Cyclistic Bike-Share Analysis
+# 🧠 Bellabeat Smart Device Data Analysis
 
-This repository contains my capstone project for the [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics). The project follows the data analysis process using real-world data from Cyclistic, a fictional bike-share company based in Chicago.
+This project is part of the final case study for the [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics). The goal is to analyze smart device data to discover usage trends and generate actionable insights to support marketing strategy at Bellabeat, a high-tech wellness company for women.
 
-## 🧩 Project Overview
+## 🧩 Business Context
 
-As a junior data analyst at Cyclistic, my main objective was to uncover how **annual members** and **casual riders** use Cyclistic bikes differently. These insights aim to help the marketing team design strategies to **convert casual riders into annual members**.
+Bellabeat manufactures smart health devices and apps for women, including fitness trackers, watches, and mobile apps. The company aims to use data insights to improve user engagement and support healthy lifestyles.
 
-The project follows the six phases of the data analysis process:
+Urška Sršen, co-founder of Bellabeat, believes that analyzing existing device usage data can reveal valuable trends. This project focuses on identifying user behavior patterns to inform future marketing campaigns.
 
-1. **Ask** – Define the business task and key questions.
-2. **Prepare** – Collect and understand the data.
-3. **Process** – Clean and format the data.
-4. **Analyze** – Identify patterns and trends.
-5. **Share** – Visualize and communicate findings.
-6. **Act** – Provide recommendations based on insights.
+## 🎯 Business Task
 
-## 🔍 Tools & Skills Used
+Analyze user activity data from smart devices to uncover insights into:
+- Daily activity levels
+- Sleep habits
+- Calories burned
+- Usage trends by weekday/month
+- Correlation between lifestyle metrics
 
-- **Programming Languages**: R  
-- **Libraries**: `tidyverse`, `lubridate`, `ggplot2`, `dplyr`
-- **Skills Applied**:
-  - Data wrangling and cleaning
-  - Time/date manipulation
-  - Descriptive analysis
-  - Data visualization
-  - Business-oriented storytelling
+Then, generate high-level marketing recommendations for Bellabeat based on the findings.
 
-## 📈 Key Questions Answered
+## 🧪 Tools & Skills Used
 
-- What are the differences in trip duration between members and casual riders?
-- What days of the week are most popular for each rider type?
-- What are the peak hours of usage for casual vs. member riders?
-- Which type of bike (classic, electric, docked) is most used by each group?
-- How can these findings help Cyclistic improve conversion and retention?
+- **Programming Language:** R  
+- **Libraries:** tidyverse · ggplot2 · dplyr · lubridate  
+- **Skills:** Data Cleaning · Exploratory Data Analysis · Data Visualization · Critical Thinking
 
-## 📊 Insights & Results
+## 🛠️ Steps Followed (Google's 6-step Data Analysis Process)
 
-- **Members** tend to use bikes during weekdays for shorter, more consistent durations—indicating commuting behavior.
-- **Casual riders** prefer weekends and have longer trip durations, likely using bikes for leisure or tourism.
-- **Classic bikes** are most used, but **electric bikes** are gaining popularity among casual riders.
-- Peak usage times vary by user type, highlighting different patterns in behavior.
+1. **Ask**: Defined business task and stakeholder needs  
+2. **Prepare**: Collected and familiarized with Fitbit-style dataset  
+3. **Process**: Cleaned and filtered data for analysis  
+4. **Analyze**: Explored trends, correlations, and outliers  
+5. **Share**: Visualized insights with graphs and summaries  
+6. **Act**: Proposed marketing actions to boost engagement
 
-## 💡 Business Recommendations
+## 🔍 Key Insights
 
-- Launch **targeted weekend promotions** for casual riders to encourage frequent use.
-- Offer **trial membership programs** with incentives during high-usage periods.
-- Promote the **convenience and cost-effectiveness** of annual plans in areas with heavy casual usage.
-- Expand the availability of electric bikes to attract more casual users.
+- Users tend to be more active during weekdays than weekends
+- On average, users fall short of recommended daily activity goals
+- Sleep patterns vary significantly across weekdays
+- Calorie burn correlates strongly with step count and activity minutes
+
+## 💡 Recommendations
+
+- Launch campaigns encouraging consistent weekend activity
+- Push notifications to meet daily goals
+- Personalized health tips based on sleep behavior
+- Monthly summary reports to boost engagement
 
 ## 📁 Data Source
 
-The dataset used in this project is provided by Motivate International Inc. under license. The data can be accessed from [Divvy’s official data portal](https://divvy-tripdata.s3.amazonaws.com/index.html).
+The dataset used is public domain Fitbit data available via Kaggle, containing 30+ days of daily activity from 30 users.  
+[Dataset on Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit)
 
-> **Disclaimer**: This is a fictional project for educational purposes only and is not affiliated with Cyclistic or Divvy.
+> **Disclaimer**: This is an educational project and not affiliated with Bellabeat or Fitbit.
